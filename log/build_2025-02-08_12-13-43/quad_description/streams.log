@@ -1,0 +1,18 @@
+[1.004s] Invoking command in '/home/dhananjay/ws/quad_ws/build/quad_description': PYTHONPATH=/home/dhananjay/ws/quad_ws/build/quad_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dhananjay/ws/quad_ws/install/quad_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/dhananjay/ws/quad_ws/build/quad_description/build --no-deps symlink_data
+[1.381s] /home/dhananjay/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.381s]   warnings.warn(
+[1.421s] running develop
+[1.639s] running egg_info
+[1.640s] writing quad_description.egg-info/PKG-INFO
+[1.640s] writing dependency_links to quad_description.egg-info/dependency_links.txt
+[1.640s] writing entry points to quad_description.egg-info/entry_points.txt
+[1.640s] writing requirements to quad_description.egg-info/requires.txt
+[1.640s] writing top-level names to quad_description.egg-info/top_level.txt
+[1.642s] reading manifest file 'quad_description.egg-info/SOURCES.txt'
+[1.642s] writing manifest file 'quad_description.egg-info/SOURCES.txt'
+[1.644s] running build_ext
+[1.644s] Creating /home/dhananjay/ws/quad_ws/install/quad_description/lib/python3.10/site-packages/quad-description.egg-link (link to .)
+[1.644s] 
+[1.645s] Installed /home/dhananjay/ws/quad_ws/build/quad_description
+[1.645s] running symlink_data
+[1.666s] Invoked command in '/home/dhananjay/ws/quad_ws/build/quad_description' returned '0': PYTHONPATH=/home/dhananjay/ws/quad_ws/build/quad_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dhananjay/ws/quad_ws/install/quad_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/dhananjay/ws/quad_ws/build/quad_description/build --no-deps symlink_data

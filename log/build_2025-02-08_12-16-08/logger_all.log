@@ -1,0 +1,196 @@
+[0.124s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.124s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f88c4682260>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f88c4681db0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f88c4681db0>>, mixin_verb=('build',))
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.308s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dhananjay/ws/quad_ws'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ik) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ik) by extension 'ignore'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ik) by extension 'ignore_ament_install'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ik) by extensions ['colcon_pkg']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ik) by extension 'colcon_pkg'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ik) by extensions ['colcon_meta']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ik) by extension 'colcon_meta'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ik) by extensions ['ros']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ik) by extension 'ros'
+[0.339s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ik' with type 'ros.ament_cmake' and name 'ik'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/quad_description) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/quad_description) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/quad_description) by extension 'ignore_ament_install'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/quad_description) by extensions ['colcon_pkg']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/quad_description) by extension 'colcon_pkg'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/quad_description) by extensions ['colcon_meta']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/quad_description) by extension 'colcon_meta'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/quad_description) by extensions ['ros']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/quad_description) by extension 'ros'
+[0.341s] DEBUG:colcon.colcon_core.package_identification:Package 'src/quad_description' with type 'ros.ament_python' and name 'quad_description'
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.360s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/dhananjay/ws/quad_ws/install
+[0.361s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 59 installed packages in /home/dhananjay/ros2_ws/install
+[0.363s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 496 installed packages in /opt/ros/humble
+[0.367s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'ik' build argument 'cmake_args' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'ik' build argument 'cmake_target' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'ik' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'ik' build argument 'cmake_clean_cache' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'ik' build argument 'cmake_clean_first' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'ik' build argument 'cmake_force_configure' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'ik' build argument 'ament_cmake_args' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'ik' build argument 'catkin_cmake_args' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'ik' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.423s] DEBUG:colcon.colcon_core.verb:Building package 'ik' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dhananjay/ws/quad_ws/build/ik', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dhananjay/ws/quad_ws/install/ik', 'merge_install': False, 'path': '/home/dhananjay/ws/quad_ws/src/ik', 'symlink_install': True, 'test_result_base': None}
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'quad_description' build argument 'cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'quad_description' build argument 'cmake_target' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'quad_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'quad_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'quad_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'quad_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'quad_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'quad_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'quad_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.424s] DEBUG:colcon.colcon_core.verb:Building package 'quad_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dhananjay/ws/quad_ws/build/quad_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dhananjay/ws/quad_ws/install/quad_description', 'merge_install': False, 'path': '/home/dhananjay/ws/quad_ws/src/quad_description', 'symlink_install': True, 'test_result_base': None}
+[0.424s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.425s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.425s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dhananjay/ws/quad_ws/src/ik' with build type 'ament_cmake'
+[0.425s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dhananjay/ws/quad_ws/src/ik'
+[0.427s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.427s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.427s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.434s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dhananjay/ws/quad_ws/src/quad_description' with build type 'ament_python'
+[0.434s] Level 1:colcon.colcon_core.shell:create_environment_hook('quad_description', 'ament_prefix_path')
+[0.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhananjay/ws/quad_ws/install/quad_description/share/quad_description/hook/ament_prefix_path.ps1'
+[0.435s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dhananjay/ws/quad_ws/install/quad_description/share/quad_description/hook/ament_prefix_path.dsv'
+[0.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhananjay/ws/quad_ws/install/quad_description/share/quad_description/hook/ament_prefix_path.sh'
+[0.436s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.436s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.446s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dhananjay/ws/quad_ws/build/ik': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dhananjay/ws/quad_ws/install/quad_description:/home/dhananjay/ros2_ws/install/rqt_joint_trajectory_controller:/home/dhananjay/ros2_ws/install/rqt_controller_manager:/home/dhananjay/ros2_ws/install/ros2controlcli:/home/dhananjay/ros2_ws/install/ros2_controllers_test_nodes:/home/dhananjay/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --build /home/dhananjay/ws/quad_ws/build/ik -- -j12 -l12
+[0.851s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dhananjay/ws/quad_ws/src/quad_description'
+[0.852s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.852s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.860s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dhananjay/ws/quad_ws/build/ik' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dhananjay/ws/quad_ws/install/quad_description:/home/dhananjay/ros2_ws/install/rqt_joint_trajectory_controller:/home/dhananjay/ros2_ws/install/rqt_controller_manager:/home/dhananjay/ros2_ws/install/ros2controlcli:/home/dhananjay/ros2_ws/install/ros2_controllers_test_nodes:/home/dhananjay/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --build /home/dhananjay/ws/quad_ws/build/ik -- -j12 -l12
+[0.920s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dhananjay/ws/quad_ws/build/ik': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dhananjay/ws/quad_ws/install/quad_description:/home/dhananjay/ros2_ws/install/rqt_joint_trajectory_controller:/home/dhananjay/ros2_ws/install/rqt_controller_manager:/home/dhananjay/ros2_ws/install/ros2controlcli:/home/dhananjay/ros2_ws/install/ros2_controllers_test_nodes:/home/dhananjay/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --install /home/dhananjay/ws/quad_ws/build/ik
+[0.975s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ik)
+[0.976s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dhananjay/ws/quad_ws/build/ik' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dhananjay/ws/quad_ws/install/quad_description:/home/dhananjay/ros2_ws/install/rqt_joint_trajectory_controller:/home/dhananjay/ros2_ws/install/rqt_controller_manager:/home/dhananjay/ros2_ws/install/ros2controlcli:/home/dhananjay/ros2_ws/install/ros2_controllers_test_nodes:/home/dhananjay/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --install /home/dhananjay/ws/quad_ws/build/ik
+[0.980s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/quad_ws/install/ik' for CMake module files
+[0.981s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/quad_ws/install/ik' for CMake config files
+[0.982s] Level 1:colcon.colcon_core.shell:create_environment_hook('ik', 'cmake_prefix_path')
+[0.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhananjay/ws/quad_ws/install/ik/share/ik/hook/cmake_prefix_path.ps1'
+[0.983s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dhananjay/ws/quad_ws/install/ik/share/ik/hook/cmake_prefix_path.dsv'
+[0.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhananjay/ws/quad_ws/install/ik/share/ik/hook/cmake_prefix_path.sh'
+[0.985s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/quad_ws/install/ik/lib'
+[0.985s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/quad_ws/install/ik/bin'
+[0.985s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/quad_ws/install/ik/lib/pkgconfig/ik.pc'
+[0.986s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/quad_ws/install/ik/lib/python3.10/site-packages'
+[0.986s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/quad_ws/install/ik/bin'
+[0.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhananjay/ws/quad_ws/install/ik/share/ik/package.ps1'
+[0.988s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dhananjay/ws/quad_ws/install/ik/share/ik/package.dsv'
+[0.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhananjay/ws/quad_ws/install/ik/share/ik/package.sh'
+[0.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhananjay/ws/quad_ws/install/ik/share/ik/package.bash'
+[0.992s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhananjay/ws/quad_ws/install/ik/share/ik/package.zsh'
+[0.993s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dhananjay/ws/quad_ws/install/ik/share/colcon-core/packages/ik)
+[1.087s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ik)
+[1.087s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/quad_ws/install/ik' for CMake module files
+[1.088s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/quad_ws/install/ik' for CMake config files
+[1.089s] Level 1:colcon.colcon_core.shell:create_environment_hook('ik', 'cmake_prefix_path')
+[1.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhananjay/ws/quad_ws/install/ik/share/ik/hook/cmake_prefix_path.ps1'
+[1.090s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dhananjay/ws/quad_ws/install/ik/share/ik/hook/cmake_prefix_path.dsv'
+[1.090s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhananjay/ws/quad_ws/install/ik/share/ik/hook/cmake_prefix_path.sh'
+[1.091s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/quad_ws/install/ik/lib'
+[1.091s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/quad_ws/install/ik/bin'
+[1.092s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/quad_ws/install/ik/lib/pkgconfig/ik.pc'
+[1.092s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/quad_ws/install/ik/lib/python3.10/site-packages'
+[1.092s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/quad_ws/install/ik/bin'
+[1.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhananjay/ws/quad_ws/install/ik/share/ik/package.ps1'
+[1.094s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dhananjay/ws/quad_ws/install/ik/share/ik/package.dsv'
+[1.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhananjay/ws/quad_ws/install/ik/share/ik/package.sh'
+[1.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhananjay/ws/quad_ws/install/ik/share/ik/package.bash'
+[1.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhananjay/ws/quad_ws/install/ik/share/ik/package.zsh'
+[1.097s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dhananjay/ws/quad_ws/install/ik/share/colcon-core/packages/ik)
+[1.414s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dhananjay/ws/quad_ws/build/quad_description': PYTHONPATH=/home/dhananjay/ws/quad_ws/build/quad_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dhananjay/ws/quad_ws/install/quad_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/dhananjay/ws/quad_ws/build/quad_description/build --no-deps symlink_data
+[2.053s] Level 1:colcon.colcon_core.shell:create_environment_hook('quad_description', 'pythonpath_develop')
+[2.053s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhananjay/ws/quad_ws/build/quad_description/share/quad_description/hook/pythonpath_develop.ps1'
+[2.053s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dhananjay/ws/quad_ws/build/quad_description' returned '0': PYTHONPATH=/home/dhananjay/ws/quad_ws/build/quad_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dhananjay/ws/quad_ws/install/quad_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/dhananjay/ws/quad_ws/build/quad_description/build --no-deps symlink_data
+[2.054s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dhananjay/ws/quad_ws/build/quad_description/share/quad_description/hook/pythonpath_develop.dsv'
+[2.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhananjay/ws/quad_ws/build/quad_description/share/quad_description/hook/pythonpath_develop.sh'
+[2.054s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/quad_ws/install/quad_description' for CMake module files
+[2.055s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/quad_ws/install/quad_description' for CMake config files
+[2.055s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/quad_ws/install/quad_description/lib'
+[2.055s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/quad_ws/install/quad_description/bin'
+[2.055s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/quad_ws/install/quad_description/lib/pkgconfig/quad_description.pc'
+[2.056s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/quad_ws/install/quad_description/lib/python3.10/site-packages'
+[2.056s] Level 1:colcon.colcon_core.shell:create_environment_hook('quad_description', 'pythonpath')
+[2.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhananjay/ws/quad_ws/install/quad_description/share/quad_description/hook/pythonpath.ps1'
+[2.056s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dhananjay/ws/quad_ws/install/quad_description/share/quad_description/hook/pythonpath.dsv'
+[2.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhananjay/ws/quad_ws/install/quad_description/share/quad_description/hook/pythonpath.sh'
+[2.057s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/quad_ws/install/quad_description/bin'
+[2.057s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(quad_description)
+[2.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhananjay/ws/quad_ws/install/quad_description/share/quad_description/package.ps1'
+[2.057s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dhananjay/ws/quad_ws/install/quad_description/share/quad_description/package.dsv'
+[2.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhananjay/ws/quad_ws/install/quad_description/share/quad_description/package.sh'
+[2.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhananjay/ws/quad_ws/install/quad_description/share/quad_description/package.bash'
+[2.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhananjay/ws/quad_ws/install/quad_description/share/quad_description/package.zsh'
+[2.059s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dhananjay/ws/quad_ws/install/quad_description/share/colcon-core/packages/quad_description)
+[2.059s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.059s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.059s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.059s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.066s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.066s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.066s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.074s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.075s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dhananjay/ws/quad_ws/install/local_setup.ps1'
+[2.075s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dhananjay/ws/quad_ws/install/_local_setup_util_ps1.py'
+[2.077s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dhananjay/ws/quad_ws/install/setup.ps1'
+[2.080s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dhananjay/ws/quad_ws/install/local_setup.sh'
+[2.081s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dhananjay/ws/quad_ws/install/_local_setup_util_sh.py'
+[2.081s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dhananjay/ws/quad_ws/install/setup.sh'
+[2.084s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dhananjay/ws/quad_ws/install/local_setup.bash'
+[2.085s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dhananjay/ws/quad_ws/install/setup.bash'
+[2.089s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dhananjay/ws/quad_ws/install/local_setup.zsh'
+[2.089s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dhananjay/ws/quad_ws/install/setup.zsh'
