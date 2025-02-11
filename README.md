@@ -37,6 +37,9 @@ This command opens RViz to visualize the quadruped robot leg and interactively c
 
 The **ik** package contains the inverse kinematics implementation for the quadruped leg using analytical equations.
 
+![Quadruped Robot](quadruped.jpeg)
+![Quadruped Robot leg](leg.jpeg)
+
 ## Dependencies
 Ensure that you have the required dependencies installed:
 
